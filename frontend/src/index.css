@@ -1,0 +1,59 @@
+/*
+This file is part of UnoPack.
+
+UnoPack is free software: you can redistribute it and/or modify it under the terms of version 3 of GNU Affero Public License as published by the Free Software Foundation.
+
+UnoPack is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero Public License for more details.
+
+You should have received a copy of the GNU Affero Public License along with UnoPack. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-600;
+}
+
+.btn {
+  @apply rounded-xl bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-300 px-8 py-3 text-center text-xl font-bold uppercase text-zinc-950 shadow;
+}
+
+.btn-pink {
+  @apply rounded-xl bg-pink-300 p-3 text-center font-bold uppercase text-zinc-900 shadow hover:bg-purple-300;
+}
+
+.btn-zinc {
+  @apply rounded-xl bg-zinc-800 p-3 text-center font-bold uppercase text-white shadow hover:bg-zinc-700;
+}
+
+* {
+  @apply outline-none outline-2 outline-offset-2 focus-visible:outline-purple-400;
+}
+
+/* Градиенты для картинок */
+
+.bg-gradient-yellow {
+  @apply bg-gradient-to-br from-orange-200 to-orange-400;
+}
+
+.bg-gradient-pink {
+  @apply bg-gradient-to-br from-pink-200 to-pink-400;
+}
+
+.bg-gradient-blue {
+  @apply bg-gradient-to-br from-blue-200 to-blue-400;
+}
+
+.bg-gradient-green {
+  @apply bg-gradient-to-br from-green-200 to-green-400;
+}
+
+.bg-gradient-zinc {
+  @apply bg-gradient-to-br from-zinc-200 to-zinc-400;
+}

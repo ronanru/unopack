@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+.btn {
+  @apply rounded-lg bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-300 px-8 py-3 text-center text-xl font-bold uppercase text-zinc-950 shadow;
+}
+
+* {
+  @apply outline-none outline-2 outline-offset-2 focus-visible:outline-purple-400;
+}
