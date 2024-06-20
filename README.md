@@ -3,7 +3,6 @@
 This is the source code of UnoPack, a minecraft modpack generator.
 
 # Packages
-
 | Folder Name | Description                                    | Technologies Used             |
 | ----------- | ---------------------------------------------- | ----------------------------- |
 | backend     | The backend API                                | Rust, Axum                    |
