@@ -1,6 +1,6 @@
 # UnoPack
 
-This is the source code of UnoPack, the minecraft modpack generator.
+This is the source code of UnoPack, a minecraft modpack generator.
 
 # Packages
 
