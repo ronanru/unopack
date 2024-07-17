@@ -24,11 +24,6 @@ const translators = [
     url: 'https://t.me/synthdev',
   },
   {
-    language: 'az',
-    name: 'thehardnar',
-    url: 'https://namemc.com/profile/TheHardNar.1',
-  },
-  {
     language: 'be',
     name: '8ISKUP',
     url: 'https://t.me/biskuperaklad',
